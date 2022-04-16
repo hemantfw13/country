@@ -30,6 +30,7 @@ export const Home = () => {
   const MainDiv = styled.div`
     margin: auto;
     text-align: center;
+    color: green;
     /* border: 1px solid red; */
     width: 80%;
     .subDiv {
@@ -39,7 +40,7 @@ export const Home = () => {
       margin: auto;
     }
     table {
-      border: 1px solid black;
+      border: 1px solid red;
       margin: auto;
       /* padding: 10px; */
     }
