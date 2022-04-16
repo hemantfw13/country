@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { TableRow } from "./TableRow";
 import { useDispatch, useSelector } from "react-redux";
 import { addCity } from "../Redux/action";
+import "./Home.css";
 
 export const Home = () => {
   const [text, setText] = useState("");
@@ -146,7 +147,7 @@ export const Home = () => {
       <br />
 
       <div className="subDiv">
-        <h2>See and Analyze the data</h2>
+        <h2>This is Table</h2>
         <input
           className="searchAddress"
           type="text"
